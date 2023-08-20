@@ -1,0 +1,59 @@
+.homeBotAvatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    align-items: center;
+    margin-top: 6px;
+}
+.homeNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.homeSmall{
+    margin-right: 25px;
+    color: blue;
+}
+.homeBotName{
+    font-size: 18px;
+    font-weight: 500;
+}
+.homeBotContent{
+    display: flex;
+    margin-bottom: 15px;
+}
+.homeBotBtns{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.homeBotBtns.blue:hover{
+    color: darkblue;
+    color: white;
+}
+.homeBotBtns.red:hover{
+    color: red;
+    color: white;
+}
+.homeBotInfoBtn{
+    margin-top: 10px;
+    border: 10px;
+}
+.homeBotBtns.blue{
+    color: white;
+    background: blue;
+}
+.homeBotBtns.red{
+    color: white;
+    background: #3a3b3c;
+}
+.sidebarTopLink{
+    text-decoration: none;
+    color: white;
+}

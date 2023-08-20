@@ -1,0 +1,72 @@
+.postcontent{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #3a3b3c;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.postAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.postContentAcc{
+    display: flex;
+    justify-content: space-between;
+}
+.postContentLeft{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.postAvatar{
+    margin-right: 15px;
+}
+.postContentRight{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.postContentText{
+    background: transparent;
+    outline: none;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    resize: none;
+    color: white;
+}
+.postContentBot{
+    margin-top: 10px;
+    display: flex;
+    border-bottom: 1px solid #b0b3b8;
+    border-top: 1px solid #b0b3b8;
+    align-items: center;
+    justify-content: space-between;
+}
+.postContentIcons{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.postMenu{
+    font-size: 18px;
+    margin-right: 10px;
+    transition: all .3s ease;
+}
+
+.postContentMid{
+    outline: none;
+    border: none;
+    color: white;
+    margin-right: 10px !important;
+}
+/* .postMenu.trash{
+    font-size: 13px !important;
+    color: red;
+    margin-bottom: 8px;
+} */

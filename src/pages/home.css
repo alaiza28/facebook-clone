@@ -1,0 +1,175 @@
+.home{
+    flex: 4;
+    background: #18191a;
+    color: white;
+    overflow-y: hidden;
+    
+}
+.homeHr{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #e4e6eb, rgba(0, 0, 0, 0));
+}
+.homeAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.homePost{
+    padding: 20px;
+    background:#3a3b3c;
+    border-radius: 10px;
+}
+.homeWrapper{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 90px;
+    /* height: 280rem; */
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+.homeLeft{
+    flex: 2;
+}
+.homeRight{
+    flex: 2;
+}
+.homeForm{
+    display: flex;
+}
+.formHome{
+    width: 18rem;
+}
+.homeInput{
+    background: transparent;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #e4e6eb;
+    margin-left: 5px;
+}
+.homeButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.homePostItem{
+    padding: 5px 15px;
+    border: 1px solid green;
+    color: white;
+    background: green;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.homePostItem:hover{
+    background: green;
+}
+.homeContent{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.homeButtonTitle{
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.icon{
+    font-size: 18px;
+}
+.icon.green{
+    color: green;
+    
+}
+.icon.red{
+    color: red;
+    
+}
+.icon.orange{
+    color: orange;
+}
+.homePostContent{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background: #3a3b3c; */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.homeRightWrapper{
+    margin-left: 8rem;
+}
+.homeRightTitle{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.homeSponsored{
+    width: 120px;
+    height:120px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.homeTopContent{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.homeSponsoredText{
+    justify-content: center;
+}
+.homeBotAvatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    align-items: center;
+}
+.homeNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.homeSmall{
+    margin-right: 25px;
+    color: blue;
+}
+.homeBotContent{
+    display: flex;
+
+}
+.homeBotBtns{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+.homeBotInfoBtn{
+    margin-top: 10px;
+    border: 10px;
+}
+.homeBotBtns.blue{
+    color: white;
+    background: blue;
+}
+.homeBotBtns.red{
+    color: white;
+    background: #3a3b3c;
+}
+.sidebarTopLink{
+    text-decoration: none;
+    color: white;
+}
+.homeRightTitle.friend{
+    margin-top: 15px;
+}
+.postMenu.trash:hover{
+    color: red;
+}
+.postMenu.like:hover{
+    color: cornflowerblue;
+}

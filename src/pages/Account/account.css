@@ -1,0 +1,213 @@
+.account {
+  flex: 3;
+  color: white;
+  background: #18191a;
+}
+.accountBg {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.avatarAcc {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  position: absolute;
+  top: -80px;
+  margin-left: 20px;
+}
+.avCon {
+  margin-left: 15rem;
+  margin-bottom: 10px;
+}
+.accLeftSideBox {
+  background: #3a3b3c;
+  justify-content: center;
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+/* .accountLeftSide {
+    justify-content: center;
+    padding: 20px 40px;
+    border-radius: 8px;
+  } */
+  .accLeftIcon{
+    font-size: 22px;
+  }
+.accountName {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.accountDet {
+  margin-bottom: 5px;
+  color: gray;
+}
+.accFrnds {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.accountFriends {
+  display: flex;
+}
+.accountTopTop {
+  height: 250px;
+  width: 100%;
+  background: rgb(107, 110, 112);
+}
+.accountTopBot {
+  position: relative;
+}
+.accountAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accountDetails {
+  display: flex;
+  align-items: center;
+}
+.accountSideBtn {
+}
+.accountBtn {
+  align-items: center;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.accountBtn.blue:hover {
+  color: white;
+  background: rgb(23, 23, 195);
+}
+.accountBtn.gray:hover {
+  color: white;
+  background: rgb(189, 189, 189);
+}
+.accountIcons {
+  font-size: 15px;
+  color: white;
+  align-items: center;
+  margin-right: 5px;
+  justify-content: center;
+}
+.accountBtn.blue {
+  color: white;
+  background: blue;
+}
+.accountBtn.gray {
+  color: white;
+  background: gray;
+}
+.acc {
+  margin-top: 20px;
+  margin-top: 20px;
+}
+.accountTopBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accList {
+  display: flex;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+}
+.accListItem {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 7px;
+  transition: all 0.5s ease;
+}
+.accListItem:hover {
+  background: #b0b3b8;
+  color: #3a3b3c;
+}
+.accountTopRight {
+  margin-right: 20px;
+  padding: 5px 10px;
+  background: #3a3b3c;
+  border-radius: 3px;
+}
+.accountTopRightIcon {
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: gray;
+}
+.accountBotContainer {
+  display: flex;
+}
+.accountLeftSide {
+  flex: 1;
+}
+.accountRightSide {
+  flex: 2;
+}
+.accountBotContainer {
+  margin-top: 20px;
+}
+
+.accLeftName {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.accEdit {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  background: gray;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #3a3b3c;
+  transition: all 0.3s ease;
+}
+.accEdit:hover {
+  background: gray;
+  border: 1px solid #3a3b3c;
+}
+.accLeftBtnItems {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.btnName {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.picContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.accPicHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accPicturesContainer{
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 20px;
+    background: #3a3b3c;
+}
+.accSeeAll{
+    color: blue;
+    font-size: 15px;
+}

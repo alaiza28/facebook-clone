@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+*{
+    outline: none;
+}
+.topbar{
+    width: 100%;
+    height: 65px;
+    background: #242526;
+    color: #f8fafc;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.topbarRightIcon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.topbarWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    border-bottom: 1px solid #3f3f46;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbarLogo{
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: 'Tilt Warp', cursive;
+}
+form {
+    color: #555;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin-right: 90px;
+    border: 1px solid #71717a;
+    border-radius: 30px;
+  }
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 10px 20px;
+    width: 28rem;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  
+  input[type="search"]::placeholder {
+    color: #bbb;
+  }
+  
+.topbarSearch{
+    margin-right: 10px;
+   font-size: 25px;
+   color: #71717a;
+}
+
+.topbarRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.topbarRightBtn{
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 5px;
+    color: #f8fafc;
+    border-radius: 50%;
+    background: 	#3a3b3c;
+}
+.topbarRightContainer{
+    position: relative;
+    cursor: pointer;
+}
+.topbarBadge{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 10px;
+}

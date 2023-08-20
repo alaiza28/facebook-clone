@@ -1,0 +1,9 @@
+.picturecard{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.picHandler{
+    width: 100px;
+    height: 100px;
+}
